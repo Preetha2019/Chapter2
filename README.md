@@ -22,3 +22,26 @@ hold values between –32,768 and 32,767, an unsigned integer can hold values be
 #### Hint:
 * A number of useful identifiers are defined in the limits.h header file in ANSI C.
 * Use limits.h so that predefined identifiers can define the limits for the integer data types.
+### C’s int limits identifiers, from limits.h:
+#### Identifier- Value- Description
+char types
+CHAR_BIT- 8- Number of bits in a char type
+SCHAR_MIN- –127- Minimum signed char type
+SCHAR_MAX- 127- Maximum signed char type
+UCHAR_MAX- 255- Maximum unsigned char type
+CHAR_MIN- SCHAR_MIN- Minimum char value, if characters are unsigned
+CHAR_MAX- SCHAR_MAX- Maximum char value, if characters are unsigned
+CHAR_MIN- 0- If characters are signed
+CHAR_MAX- UCHAR_MAX- If characters are signed
+MB_LEN_MAX- 1- Maximum number of bytes in multibyte char
+short int types
+SHRT_MIN- –32767- Minimum (signed) short type
+SHRT_MAX- 32767- Maximum (signed) short type
+USHRT_MAX- 65535- Maximum unsigned short type
+INT_MIN- –32767- Minimum (signed) int type
+INT_MAX- 32767- Maximum (signed) int type
+UINT_MAX- 65535- Maximum unsigned int type
+long int types
+LONG_MIN- –2147483647- Minimum (signed) long type
+LONG_MAX- 2147483647- Maximum (signed) long type
+ULONG_MAX- 4294967295- Maximum unsigned long type
