@@ -45,3 +45,16 @@ hold values between –32,768 and 32,767, an unsigned integer can hold values be
 * LONG_MIN- –2147483647- Minimum (signed) long type
 * LONG_MAX- 2147483647- Maximum (signed) long type
 * ULONG_MAX- 4294967295- Maximum unsigned long type
+#### Hint:
+* Other identifiers generally are defined in float.h
+* Rather than code constants for these values into your program, you should use
+one of the predefined identifiers listed in limits.h and float.h files. These identifiers allow
+for better portability and make the meaning of your program clear.
+### Constants:
+All homes are buildings, but not all buildings are homes. All literals are _constants_, but
+_not all constants are literals_.
+__Example:__
+(img scr"https://photos.app.goo.gl/7GUBujTazSkqNuxp9")
+
+
+
