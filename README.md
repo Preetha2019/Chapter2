@@ -1,4 +1,5 @@
 # CHAPTER 2 DATA TYPES, CONSTANTS, VARIABLES AND ARRAYS
+### Data Types:
 * The C language supports a number of data types.
 * Because most CPUs generally support these data types directly, it is
 unnecessary for the compiler to convert the data types into the types the CPU
